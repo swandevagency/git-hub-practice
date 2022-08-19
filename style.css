@@ -10,13 +10,11 @@ div {
 .form-section {
     background-color: #007cdc;
     padding: 104px 0;
-    display: flex;
-    justify-content: center;
 }
 .form-container {
     display: block;
     padding: 0 15px;
-    margin: 0 21px;
+    margin: 0 21x;
     width: 970px;
 }
 .web-form {
