@@ -78,3 +78,96 @@ div {
     align-items: center;
     margin-top: 50px;
 }
+.advertise-section {
+    display: flex;
+}
+.images-container, .twitter-container, .ad-container {
+    flex-basis: 33.33%;
+    flex-grow: 1;
+}
+.images-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 33.33%;
+    height: 225.02px;
+    align-items: center;
+    gap: 0;
+}
+.link-image {
+    width: 33.33%;
+    height: 112.51px;
+}
+.link-image img {
+    width: 100%;
+    height: fit-content;
+}
+.twitter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1da1f2;
+    color: #fff;
+    height: 250.60px;
+    justify-content: space-between;
+    font-size: 18.72px;
+}
+.twitter-container svg {
+    fill: #cde9fe;
+    width: 48.4px;
+    height: 52px;
+}
+.twitter-container a {
+    text-decoration: none;
+}
+.twitter-text {
+    padding: 31.2px 31.2px 0;
+    margin-bottom: 18.72px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.ad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://milaniz.com/sites/default/files/styles/560x400/public/2017-03/whwybmtn3_0-brooke-cagle-1000x625.jpg?itok=9xAiMr2F);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    background-position: bottom;
+    position: relative;
+}
+.ad-container::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: black;
+    opacity: 0.5;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.ad-container svg {
+    width: 52px;
+    height: 52px;
+    fill: #e3e6e8;
+    z-index: 2;
+}
+.ad-container h5 {
+    font-size: 20px;
+    padding: 0 32.5px;
+    margin: 20px 0;
+    color: #fff;
+    z-index: 2;
+}
+.ad-container a {
+    font-size: 13px;
+    color: #2196F3;
+    text-decoration: none;
+    z-index: 2;
+}
