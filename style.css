@@ -173,3 +173,38 @@ div {
     text-decoration: none;
     z-index: 2;
 }
+footer {
+    padding: 26px 0;
+    display: block;
+}
+.footer-container {
+    margin: 0 21.33px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 13px;
+}
+.footer-copyright img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+.footermenu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #2196F3;
+    text-align: center;
+}
